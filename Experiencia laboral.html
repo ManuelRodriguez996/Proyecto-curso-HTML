@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manuel Rodriguez">
+    <meta name="description" content="página web CV">
+    <link rel="shortcut icon" href="/assets/favicon/icons8-cv-80.png" type="image/x-icon">
+    <title>CV Manuel Rodriguez</title>
+
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+            height: 380px;
+            overflow: hidden;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+
+        #h2-sec {
+            margin: 15px;
+            text-align: center;
+        }
+
+        img {
+            width: 600px;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Manuel Rodriguez</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Habilidades.html">Habilidades</a></li>
+                <li><a class="active" href="Experiencia laboral.html">Experiencia laboral</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <h2 id="h2-sec">Mi Experiencia Laboral</h2>
+    <hr>
+    <div class="desc">
+        <p>2018-2020 Melona venta de helado al por mayor (emprendimiento propio)</p>
+    </div>
+
+    <div class="centrado"><video src="/assets/video/258481917_2007833592716472_1404926596800831721_n.mp4" autoplay
+            controls></video>
+    </div>
+
+    <section class="centrado">
+
+        <div class="gallery">
+            <div class="desc">barrio chino 1</div>
+            <a href="/assets/img/maxresdefault (1).jpg" target="_blank"><img src="/assets/img/maxresdefault (1).jpg"
+                    alt="Barrio chino"></a>
+        </div>
+        <div class="gallery">
+            <div class="desc">barrio chino 2</div>
+            <a href="/assets/img/argentina-buenos-aires-barrio-chino-chinese.jpg" target="_blank"> <img
+                    src="/assets/img/argentina-buenos-aires-barrio-chino-chinese.jpg" alt="Barrio chino"></a>
+        </div class=" gallery">
+        <div class="gallery">
+            <div class="desc">barrio chino 3</div>
+            <a href="/assets/img/descarga (5).jpg" target="_blank"><img src="/assets/img/descarga (5).jpg"
+                    alt="Barrio chino"></a>
+        </div>
+
+    </section>
+
+
+    <footer class=" footer">
+        <p>Derechos reservados &copy;2023</p>
+    </footer>
+</body>
+
+</html>
